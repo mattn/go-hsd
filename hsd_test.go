@@ -21,7 +21,7 @@ func TestStringDistance(t *testing.T) {
 	}
 
 	for _, tc := range tests {
-		got := StirngDistance(tc.lhs, tc.rhs)
+		got := StringDistance(tc.lhs, tc.rhs)
 		if !reflect.DeepEqual(tc.want, got) {
 			t.Fatalf("%s: expected: %v, got: %v", tc.name, tc.want, got)
 		}
