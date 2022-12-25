@@ -1,4 +1,4 @@
-# go-jsd
+# go-hsd
 
 Hamming String Distance
 
