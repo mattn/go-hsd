@@ -13,7 +13,7 @@ func TestStringDistance(t *testing.T) {
 		want int
 	}{
 		{name: "lhs is longer than rhs", lhs: "foo", rhs: "fo", want: -1},
-		{name: "rhs is shorter than rhs", lhs: "fo", rhs: "foo", want: -1},
+		{name: "lhs is shorter than rhs", lhs: "fo", rhs: "foo", want: -1},
 		{name: "1 diff", lhs: "foo", rhs: "foh", want: 1},
 		{name: "2 diffs", lhs: "foo", rhs: "fhh", want: 2},
 		{name: "3 diffs", lhs: "foo", rhs: "hhh", want: 3},
